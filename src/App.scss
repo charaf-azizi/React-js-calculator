@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calculator{
+    width: 320px;
+    background-color: rgb(68, 71, 71);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#display, #history{
+    height: 45px;
+}
+p{
+    float: right;
+}
+
+#zero, #clear{
+    width: 160px;
+}
+#equals{
+    height: 130px;
+    position: absolute;
+    bottom: 0%;
+    width: 80px;
+}
+button {
+    height: 65px;
+    width: 25%;
+    position: relative;
+   
+}
+/* #display{
+    height:
+} */
